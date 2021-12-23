@@ -1,7 +1,7 @@
 FROM node:latest
 
-ENV NODE_ENV=devlopment
-# ENV CONNECTIONSTRING=mongodb+srv://BenZack:13abwDWnfaGvAOfC@benjacluster1.o0zuh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+ENV NODE_ENV=production
+ENV CONNECTIONSTRING=mongodb+srv://BenZack:13abwDWnfaGvAOfC@benjacluster1.o0zuh.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
 RUN npm install pm2@latest -g
 

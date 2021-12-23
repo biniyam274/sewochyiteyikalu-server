@@ -13,7 +13,7 @@ router.get('/', async (req, res, next) => {
   // await Comment.remove({})
   // await Like.remove({})
   res.send({
-    message: " Welcome Home"
+    message: "Hello There ): "
   });
 });
 
